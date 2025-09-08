@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omahe Website</title>
+  <!-- Load Playfair Display (italic) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="left">
+        <img src="assets/Screenshot 2025-09-02 214223.png" alt="Envato Market Logo" class="envato-logo">
+      </div>
+      <div class="right">
+        <a href="#" class="buy-btn">Buy now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header image (placed immediately after top-bar) -->
+  <div class="header-image">
+    <img src="assets/pexels-august-de-richelieu-4427813.jpg" alt="Hero Image">
+  </div>
+  
+  <!-- Hero Background (just for effect) -->
+  <section class="hero">
+    <!-- Floating Navbar -->
+    <header class="navbar">
+      <nav class="container">
+        <!-- Left Nav Links -->
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li class="dropdown">
+            <a href="#">Pages <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Property List</a></li>
+              <li><a href="#">Property Details</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Single Post</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">404 Error</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <!-- Logo -->
+        <div class="logo"><a href="#">O<span class="logo-icon">m</span>ahe</a></div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <div class="phone"><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</div>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="intro">
+      <div class="intro-text">
+         01/ Find Home
+        </div>
+        <div class="intro-text2">
+            Discover your <br><span class="italics"><i>perfect home</i></span> <br>with Omahe today.<span class="sale">SALE</span>
+        </div>
+        <div class="intro-text3">
+           Follow us on :
+           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </section>
+<br>
+<section class="search-section">
+  <div class="search-bar">
+    <div class="field">
+      <label>Category</label>
+      <select>
+        <option selected disabled>e.g. Rent / Buy</option>
+        <option>Rent</option>
+        <option>Buy</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Location</label>
+      <select>
+        <option selected disabled>e.g. Los Angeles</option>
+        <option>New York</option>
+        <option>Los Angeles</option>
+        <option>Chicago</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Type</label>
+      <select>
+        <option selected disabled>e.g. Appartement</option>
+        <option>Apartment</option>
+        <option>House</option>
+        <option>Villa</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Budget</label>
+      <select>
+        <option selected disabled>e.g. &lt;$100.000</option>
+        <option>&lt;$50,000</option>
+        <option>&lt;$100,000</option>
+        <option>&lt;$200,000</option>
+      </select>
+    </div>
+    <button class="btn">Get Inquiry</button>
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="container about-container">
+    <div class="about-left">
+      <p class="about-subtitle">02/ ABOUT US</p>
+    </div>
+    <div class="about-right">
+      <h2 class="about-title">
+        We are dedicated to helping you find the <em>perfect property</em> that truly feels like home.
+      </h2>
+      <p class="about-description">
+        At Omahe, we believe finding a home should be an exciting and fulfilling journey.
+        With our expert team, extensive property network, and personalized service, we are committed to
+        guiding you every step of the way to discover a space where memories are made and dreams come true.
+      </p>
+
+      <!-- About CTA component: place here so it sits under the right content -->
+      <a href="#about" class="about-btn" aria-label="Learn more about Omahe">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="container stats-container">
+    <!-- Left Column -->
+    <div class="stats-left">
+      <div class="text-column">
+        <blockquote class="testimonial">
+          “A wonderful serenity has taken of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm.”
+        </blockquote>
+        <p class="author"><span>Benny Backman</span> — CEO of Omahe</p>
+
+        <!-- Agent image shown below testimonial + author -->
+        <img src="assets/photo.jpg" alt="Omahe agent portrait" class="agent-img">
+      </div>
+
+      <!-- Family image placed to the right and sized to match the full height of the text-column -->
+      <div class="family-wrap">
+        <img src="assets/family.jpg" alt="Happy family in new home" class="family-img">
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="stats-right">
+      <div class="stat-card">
+        <h3 class="stat-number">1,200+</h3>
+        <p class="stat-text"><strong>Properties Sold</strong> <br> We have successfully helped more than 1,200 families and individuals find their perfect home.</p>
+        <span class="arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      </div>
+
+      <div class="stat-card">
+        <h3 class="stat-number">950+</h3>
+        <p class="stat-text"><strong>Happy Clients</strong><br> Our commitment to customer satisfaction is reflected in the 950+ clients who trusted us.</p>
+        <span class="arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      </div>
+
+      <div class="stat-card">
+        <h3 class="stat-number">25+</h3>
+        <p class="stat-text"><strong>Years Experience</strong> <br>With decades of experience, Omahe brings deep market knowledge and expert guidance.</p>
+        <span class="arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      </div>
+
+      <div class="stat-card">
+        <h3 class="stat-number">75+</h3>
+        <p class="stat-text"><strong>Professional Agents</strong><br> Our team of 75+ licensed real estate agents are ready to help you.</p>
+        <span class="arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="top-properties-section">
+  <div class="top-properties-inner">
+    <p class="tp-label">03/ TOP PROPERTIES</p>
+    <h1 class="tp-title">
+      Explore our <span class="playfair-italic">featured properties</span> for every lifestyle
+    </h1>
+    
+  </div>
+  <a href="#properties" class="btn">View All Properties</a>
+</section>
+
+<section class="services-section">
+  <div class="services-header">
+    <!-- LEFT: Label and Heading -->
+    <div class="header-left">
+      <span class="section-label">04/ OUR SERVICES</span>
+      <h2 class="section-title">
+        Comprehensive real estate <br><em>solutions tailored</em><br><strong>for you.</strong>
+      </h2>
+    </div>
+
+    <!-- RIGHT: Paragraph and Button -->
+    <div class="header-right">
+      <p class="section-subtitle">
+        Explore our wide range of professional<br> real estate services and manage properties<br> with complete confidence.
+      </p>
+      <a href="#services" class="view-all-btn">View All Services</a>
+    </div>
+  </div>
+
+  <!-- Service Cards -->
+  <div class="services-cards">
+    <div class="service-card">
+      <div class="icon"><img src="assets/home-sale.png" alt="Sale Icon"></div>
+      <div class="card-number">01</div>
+      <h3>Property buying</h3>
+      <p>Find your dream home with our init expert buying tailored to your preferences and budget</p>
+      <a href="#" class="learn-more">Learn More →</a>
+    </div>
+
+    <div class="service-card">
+      <div class="icon"><img src="assets/home-sold.png" alt="Sold Icon"></div>
+      <div class="card-number">02</div>
+      <h3>Property selling</h3>
+      <p>Sell your property faster and at gei the best price proven inti marketing and sales strategies.</p>
+      <a href="#" class="learn-more">Learn More →</a>
+    </div>
+
+    <div class="service-card">
+      <div class="icon"><img src="assets/home-rent.png" alt="Rent Icon"></div>
+      <div class="card-number">03</div>
+      <h3>Property renting</h3>
+      <p>Discover rental properties or list ini your home for effortlessly the our complete rental solutions.</p>
+      <a href="#" class="learn-more">Learn More →</a>
+    </div>
+
+    <div class="service-card">
+      <div class="icon"><img src="assets/home-property.png" alt="Management Icon"></div>
+      <div class="card-number">04</div>
+      <h3>Property management</h3>
+      <p>Let us manage your investment ini properties with professional care, maintenance screening.</p>
+      <a href="#" class="learn-more">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<section class="client-stories-section">
+  <span class="section-label1">05/ CLIENT STORIES</span>
+  <h2 class="section-title1">
+    What our <em>happy clients</em><br> say about <strong>omahe</strong>
+  </h2>
+</section>
+
+<section class="faq-section">
+  <div class="faq-container">
+
+    <!-- Left Column -->
+    <div class="faq-left">
+      <span class="faq-section-label">06/ NEED HELP</span>
+      <h2 class="faq-title">
+        Frequently <em>asked questions</em><br>
+        buying and renting
+      </h2>
+
+      <div class="faq-contact-box">
+        <!-- <img class="faq-contact-icon" src="assets/Ellipse-101.png" alt="o"> -->
+        <div class="faq-contact-text">
+          <h3>Still have a questions?</h3>
+          <p>One morning, when Gregor Samsa woke from troubled dreams.</p>
+        </div>
+        <a href="#" class="faq-contact-btn">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="faq-right">
+      <div class="faq-answer-box">
+        <h4 class="faq-answer-title">What documents do I need to buy a property?</h4>
+        <p class="faq-answer-text">
+          You’ll need a valid ID, tax ID (NPWP), proof of income, and bank statements.
+          Specific documents may vary depending on the property and region.
+        </p>
+      </div>
+
+      <ul class="faq-list">
+        <li class="faq-item">Are there hidden fees when buying property?<span=# class="faq-toggle">+</span></li>
+        <li class="faq-item">How long does it take to complete a purchase?<span class="faq-toggle">+</span></li>
+        <li class="faq-item">How do I list my property for sale on Omahe?<span class="faq-toggle">+</span></li>
+        <li class="faq-item">How do I know the property is safe and legal?<span class="faq-toggle">+</span></li>
+        <li class="faq-item">Can foreigners buy property in Indonesia?<span class="faq-toggle">+</span></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="blog-section">
+  <div class="blog-container">
+
+    <!-- Header -->
+    <div class="blog-header">
+      <span class="blog-label">07/ LATEST INSIGHT</span>
+      <h2 class="blog-title">
+        Stay updated with real estate <em>news</em> and <em>tips</em>
+      </h2>
+    </div>
+
+    <!-- Blog Grid -->
+    <div class="blog-grid">
+      
+      <!-- Blog Card 1 -->
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="assets/blog1-pic.jpg" alt="Real estate couple" />
+        </div>
+        <div class="blog-meta">
+          <span class="blog-author">berkahni</span> —
+          <span class="blog-date">April 30, 2025</span>
+        </div>
+        <h3 class="blog-heading">Real estate strategies for long-term wealth</h3>
+        <p class="blog-description">
+          Our blog is where insights meet inspiration in the world of real estate...
+        </p>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="assets/blog2-pic.jpg" alt="Property value" />
+        </div>
+        <div class="blog-meta">
+          <span class="blog-author">berkahni</span> —
+          <span class="blog-date">April 30, 2025</span>
+        </div>
+        <h3 class="blog-heading">Key factors that influence property value</h3>
+        <p class="blog-description">
+          Our blog is where insights meet inspiration in the world of real estate...
+        </p>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="assets/blog3-pic.jpg" alt="Smart homes" />
+        </div>
+        <div class="blog-meta">
+          <span class="blog-author">berkahni</span> —
+          <span class="blog-date">April 30, 2025</span>
+        </div>
+        <h3 class="blog-heading">The benefits of living in smart homes</h3>
+        <p class="blog-description">
+          Our blog is where insights meet inspiration in the world of real estate...
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Let's Talk Section -->
+<section class="real_estate_news">
+    <h2>Stay updated with real estate <em>news</em> and <em>tips</em></h2>
+
+    <div class="blog_container">
+      <article class="blog_card">
+        <img src="/mnt/data/dbc021f0-17c4-48ee-8024-c96a81fe1af1.png" alt="Real estate strategies"/>
+        <div class="blog_date">berkahni — April 30, 2025</div>
+        <h3>Real estate strategies for long-term wealth</h3>
+        <p>Our blog is where insights meet inspiration in the world of real estate. We share expert...</p>
+      </article>
+
+      <article class="blog_card1">
+        <img src="/mnt/data/5319dc18-ec79-4bc7-9e3a-6ad0b01b4d69.png" alt="Key factors property value" />
+        <div class="blog_date">berkahni — April 30, 2025</div>
+        <h3>Key factors that influence property value</h3>
+        <p>Our blog is where insights meet inspiration in the world of real estate. We share expert...</p>
+      </article>
+
+      <article class="blog_card1">
+        <img src="/mnt/data/FW8UDXymgqo4EDsSjdzMWw.png" alt="Benefits of smart homes" />
+        <div class="blog_date">berkahni — April 30, 2025</div>
+        <h3>The benefits of living in smart homes</h3>
+        <p>Our blog is where insights meet inspiration in the world of real estate. We share expert...</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Orange Box Section -->
+  <section class="orange_box">
+    <div class="text_content">
+      <div class="section_number" style="opacity: 0.7; font-size: 0.9rem; font-weight: 600; margin-bottom: 8px;">08/ LET'S TALK</div>
+      <h2>Start your <em>property journey</em> with Omahe today</h2>
+      <div class="buttons">
+        <button class="btn_contact">Contact Us Now</button>
+        <button class="btn_browse">Browse Listings</button>
+      </div>
+    </div>
+
+    <div class="contact_info">
+      <div class="contact_item">
+        <div class="icon_circle">
+          <!-- Phone icon -->
+          <svg width="20" height="20" fill="none" stroke="#ff3d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72 12.05 12.05 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L9 11a16 16 0 0 0 6 6l1.36-1.36a2 2 0 0 1 2.11-.45 12.05 12.05 0 0 0 2.81.7 2 2 0 0 1 1.72 2z"/>
+          </svg>
+        </div>
+        <div class="contact_text">
+          <div class="label">Call Us</div>
+          <div class="value">+1 (555) 123-4567</div>
+        </div>
+      </div>
+
+      <div class="contact_item">
+        <div class="icon_circle">
+          <!-- Email icon -->
+          <svg width="20" height="20" fill="none" stroke="#ff3d00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <path d="M4 4h16v16H4z" fill="none"/>
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+        </div>
+        <div class="contact_text">
+          <div class="label">Email Us</div>
+          <div class="value">hello@omahe.com</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer_column">
+      <h4>Company</h4>
+      <ul>
+        <li>About Us</li>
+        <li>Property Listings</li>
+        <li>Our Team</li>
+        <li>Career <span class="badge">Hiring!</span></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h4>Services</h4>
+      <ul>
+        <li>Property Buying</li>
+        <li>Property Management <span class="badge">New!</span></li>
+        <li>Property Selling</li>
+        <li>Property Renting</li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h4>Resources</h4>
+      <ul>
+        <li>Blog / Articles</li>
+        <li>Detail Guides</li>
+        <li>FAQs</li>
+        <li>Help Center</li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h4>Resources</h4>
+      <ul>
+        <li>Instagram  Twitter</li>
+        <li>Tiktok  Facebook</li>
+        <li>Linkedin  Youtube</li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h4>Resources</h4>
+      <ul>
+        <li>hello@omahe.com</li>
+        <li>+1 (800) 123-4567</li>
+        <li>123 Growth Street, San Francisco, CA</li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+</html>
