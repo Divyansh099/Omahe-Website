@@ -65,6 +65,8 @@ body {
   position: relative;
 }
 
+
+
 /* Navbar (Floating Style) */
 .navbar {
   background: #fff; /* white background */
@@ -74,7 +76,7 @@ body {
   max-width: 100%;       /* keep centered and constrained */
   margin-left: 40px;         /* center on page */
   padding: 8px 310px;      /* spacing inside */
-  z-index: 1000;           /* stay above hero/background */
+  z-index: 1000;    /* stay above hero/background */       
 }
 
 .container {
@@ -203,6 +205,7 @@ body {
   margin-left: 45px;
   margin-bottom: 60px;
 }
+
 .intro-text {
    margin-top: 400px;
   color: #e6391f;       /* red label - same as about-subtitle */
@@ -210,9 +213,7 @@ body {
   font-size: 0.95rem;
   letter-spacing: 1px;
   text-align: left;
-  margin-bottom: 25px;
-
-  /* Position to match the about-subtitle column */
+  margin-bottom: 25px;  /* Position to match the about-subtitle column */
   width: 160px;         /* same column width as .about-left */
   margin-left: 40px;      /* aligns to the container's left edge (container is 90% centered) */
 }
