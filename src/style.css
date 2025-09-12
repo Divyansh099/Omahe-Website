@@ -1420,11 +1420,12 @@ body {
     }
     section.orange_box .btn_contact {
       background-color: white;
-      color: #121212;
+      color: #000000;
       border: none;
     }
     section.orange_box .btn_contact:hover {
-      background-color: #ddd;
+      background-color: #ff3d00;
+      color: white;
     }
     section.orange_box .btn_browse {
       background-color: transparent;
@@ -1432,7 +1433,8 @@ body {
       color: white;
     }
     section.orange_box .btn_browse:hover {
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: white;
+      color: #000;
     }
     section.orange_box .contact_info {
       display: flex;
